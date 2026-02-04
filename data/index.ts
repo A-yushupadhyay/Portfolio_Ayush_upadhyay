@@ -174,7 +174,7 @@ export const DATA = {
         title: "AI Restaurant Assistant",
         description:
           "Production-grade AI-powered restaurant chatbot that behaves like a real human waiter using a decision-tree + AI hybrid approach, with session memory, AWS S3 integration, and cloud deployment.",
-        image: "/Screenshot (319).png",
+        image: "/rename_ai.png",
         category: "Full Stack / AI",
         github: "https://github.com/A-yushupadhyay/ai-restaurant-assistant",
         live: "https://ai-restaurant-assistant.vercel.app/",
