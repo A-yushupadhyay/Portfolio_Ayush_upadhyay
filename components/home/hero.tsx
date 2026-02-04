@@ -64,11 +64,12 @@ export const HeroSection = ({
             initial={{ opacity: 0, y: 20 }}
             transition={{ delay: 0.6, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
+            
             <Link
               download
               aria-label="Download Resume in PDF format"
               className="w-full sm:w-auto"
-              href="/Ayush_Upadhyay_Resume.pdf"
+              href="/Ayush_Upadhyay_Software_Engineer.pdf"
             >
               <Button
                 fullWidth

@@ -169,6 +169,24 @@ export const DATA = {
       },
       {
         id: 3,
+        title: "AI Restaurant Assistant",
+        description:
+          "Production-grade AI-powered restaurant chatbot that behaves like a real human waiter using a decision-tree + AI hybrid approach, with session memory, AWS S3 integration, and cloud deployment.",
+        image: "/Screenshot (319).png",
+        category: "Full Stack / AI",
+        github: "https://github.com/A-yushupadhyay/ai-restaurant-assistant",
+        live: "https://ai-restaurant-assistant.vercel.app/",
+        tech: [
+          { name: "React", icon: "simple-icons:react" },
+          { name: "FastAPI", icon: "simple-icons:fastapi" },
+          { name: "Python", icon: "simple-icons:python" },
+          { name: "AWS S3", icon: "simple-icons:amazonaws" },
+          { name: "OpenAI", icon: "simple-icons:openai" },
+          { name: "Pytest", icon: "simple-icons:pytest" },
+        ],
+      },
+      {
+        id: 4,
         title: "Fraud Detector",
         description:
           "ML-based Django app detecting financial fraud with 96%+ accuracy using Random Forest and Logistic Regression.",
@@ -180,9 +198,10 @@ export const DATA = {
           { name: "Django", icon: "simple-icons:django" },
           { name: "ML", icon: "simple-icons:python" },
         ],
+
       },
       {
-        id: 4,
+        id: 5,
         title: "Worknest",
         description:
           "Collaborative task management platform with JWT auth, WebSocket updates, and modular REST APIs (MERN stack).",
@@ -198,7 +217,7 @@ export const DATA = {
         ],
       },
       {
-        id: 5,
+        id: 6,
         title: "MiniOS",
         description:
           "Custom OS-level CLI system in C++ simulating CPU scheduling, file systems, and basic user authentication.",
@@ -212,7 +231,7 @@ export const DATA = {
         ],
       },
       {
-        id: 6,
+        id: 7,
         title: "WanderLust",
         description:
           "A full-stack web application inspired by Airbnb that allows users to explore, create, review, and manage travel listings. Built using Node.js, Express, MongoDB, and EJS with full authentication, session-based access, and flash messaging.",
@@ -283,3 +302,7 @@ export const DATA = {
     services: ["Full Stack Development", "Backend Systems", "AI Integration"],
   },
 } as const;
+
+
+
+
