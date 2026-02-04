@@ -9,31 +9,33 @@
     "lint": "eslint --fix"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
+      "@emailjs/browser": "^4.4.1",
 
-    "@heroui/react": "2.7.8",
+      "@heroui/react": "2.7.8",
+      "@heroui/use-theme": "2.1.6",
 
-    "@react-aria/ssr": "3.9.9",
-    "@react-aria/visually-hidden": "3.8.24",
+      "@react-aria/ssr": "3.9.9",
+      "@react-aria/visually-hidden": "3.8.24",
 
-    "@react-stately/combobox": "3.12.1",
-    "@react-stately/list": "3.9.1",
-    "@react-stately/collections": "3.9.0",
+      "@react-stately/combobox": "3.12.1",
+      "@react-stately/list": "3.9.1",
+      "@react-stately/collections": "3.9.0",
 
-    "@iconify/react": "latest",
-    "@shadergradient/react": "^2.0.25",
+      "@iconify/react": "latest",
+      "@shadergradient/react": "^2.0.25",
 
-    "clsx": "2.1.1",
-    "framer-motion": "11.13.1",
+      "clsx": "2.1.1",
+      "framer-motion": "11.13.1",
 
-    "next": "15.3.1",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
+      "next": "15.3.1",
+      "react": "18.3.1",
+      "react-dom": "18.3.1",
 
-    "next-themes": "0.4.6",
-    "@vercel/analytics": "^1.5.0",
-    "@vercel/speed-insights": "^1.2.0"
-  },
+      "next-themes": "0.4.6",
+      "@vercel/analytics": "^1.5.0",
+      "@vercel/speed-insights": "^1.2.0"
+    }
+    ,
   "devDependencies": {
     "@eslint/compat": "1.2.8",
     "@eslint/eslintrc": "3.3.1",
