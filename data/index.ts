@@ -1,3 +1,5 @@
+import { platform } from "os";
+
 export const DATA = {
   home: {
     hero: {
@@ -298,6 +300,12 @@ export const DATA = {
         url: "https://www.geeksforgeeks.org/user/puskarb3n6/",
         icon: "simple-icons:geeksforgeeks",
       },
+      {
+        platform: "CodeChef",
+        url: "https://www.codechef.com/users/ayus124",
+        icon: "simple-icons:codechef",
+
+      }, 
     ],
     services: ["Full Stack Development", "Backend Systems", "AI Integration"],
   },
